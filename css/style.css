@@ -3,10 +3,35 @@ h1{
     font-weight: bold;
     font-size: 50px;
 }
-h2{
+h2, p{
    font-family: 'Roboto Condensed', sans-serif;
     font-weight: normal;
 }
 .home{
     text-align: center;
+    background-color: #e8d3e8;
+}
+a{
+    color: #89264D;
+}
+body{
+    background-color: whitesmoke;
+}
+.description{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+@media (max-width:962px) {
+    .description{
+        padding: none;
+        text-align: center;
+    }
+}
+@media (max-width:768px) {
+    .description{
+        font-size: 40px;
+        text-align: start;
+        margin: 0;
+        padding: 0;
+    }
 }
