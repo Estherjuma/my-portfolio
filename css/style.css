@@ -81,5 +81,12 @@ footer{
     .details{
         font-size: 30px;
     }
+    footer{
+        font-size: 30px;
+        margin: 10px 50px;
+    }
+    .email-link{
+        font-size: 20px;
+    }
 }
 
