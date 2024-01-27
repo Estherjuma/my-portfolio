@@ -17,7 +17,7 @@ a:hover{
     color: #31D2F2;
 }
 body{
-    background-color: whitesmoke;
+    background-color: #f9f2e0;
 }
 .description{
     margin-top: 40px;
@@ -41,6 +41,28 @@ div li{
 }
 .list{
     margin-right: 100px;
+}
+footer{
+    background-color:#F8F9FA ;
+    margin: 30px 200px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.email-link{
+    display: flex;
+    justify-content: center;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    padding: 5px;
+    background-color:  grey;
+    border-radius: 10px;
 }
 @media (max-width:990px) {
     .description{
